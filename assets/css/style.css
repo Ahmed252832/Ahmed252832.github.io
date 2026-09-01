@@ -448,10 +448,11 @@ textarea { min-height: 140px; resize: vertical; }
 
 .project-image {
     width: 100%;
-    height: 240px;
+    height: 260px;
     object-fit: cover;
+    object-position: center;
     border-radius: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 
@@ -496,6 +497,10 @@ textarea { min-height: 140px; resize: vertical; }
 
 /* Project Card spacing */
 
-.project-card img {
-    display: block;
+.project-card {
+    padding: 24px;
+}
+
+.project-card h3 {
+    margin-top: 15px;
 }
