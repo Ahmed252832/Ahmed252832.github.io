@@ -448,12 +448,11 @@ textarea { min-height: 140px; resize: vertical; }
 
 .project-image {
     width: 100%;
-    height: 220px;
+    height: 240px;
     object-fit: cover;
     border-radius: 16px;
     margin-bottom: 20px;
 }
-
 
 
 /* Technology Tags */
@@ -497,6 +496,6 @@ textarea { min-height: 140px; resize: vertical; }
 
 /* Project Card spacing */
 
-.project-card {
-    overflow: hidden;
+.project-card img {
+    display: block;
 }
